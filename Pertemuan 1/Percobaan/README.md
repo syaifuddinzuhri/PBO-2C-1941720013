@@ -14,10 +14,10 @@
 
 ## Pertanyaan
 
-1. Jelaskan perbedaan antara objek dengan class!
-   Jawab :
-   Objek adalah pemanfaatan atau perwujudan dari class yang siap untuk digunakan.
-   Class adalah kumpulan dari suatu fungsi-fungsi atau method yang dibuat untuk suatu tujuan tertentu. Selain itu class juga bisa diartikan sebagai rancangan atau design dari suatu objek.
+**1. Jelaskan perbedaan antara objek dengan class!**\
+ **Jawab :**\
+ Objek adalah pemanfaatan atau perwujudan dari class yang siap untuk digunakan.
+Class adalah kumpulan dari suatu fungsi-fungsi atau method yang dibuat untuk suatu tujuan tertentu. Selain itu class juga bisa diartikan sebagai rancangan atau design dari suatu objek.
 
 2. Jelaskan alasan warna dan tipe mesin dapat menjadi atribut dari objek mobil!
    Jawab :
