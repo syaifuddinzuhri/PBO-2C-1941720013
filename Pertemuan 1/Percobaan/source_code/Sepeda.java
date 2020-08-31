@@ -24,6 +24,7 @@ public class Sepeda {
   }
 
   public void cekStatus() {
+    System.out.println("\n---------------------------------");
     System.out.println("Merek: " + merek);
     System.out.println("Kecepatan: " + kecepatan);
     System.out.println("Gear: " + gear);

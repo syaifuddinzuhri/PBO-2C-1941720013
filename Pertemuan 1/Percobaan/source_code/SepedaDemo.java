@@ -10,6 +10,7 @@ public class SepedaDemo {
     spd1.tambahKecepatan(10);
     spd1.gantiGear(2);
     spd1.cekStatus();
+    System.out.println("---------------------------------");
 
     spd2.setMerk("Wiim Cycle");
     spd2.tambahKecepatan(10);
@@ -17,11 +18,13 @@ public class SepedaDemo {
     spd2.tambahKecepatan(10);
     spd2.gantiGear(3);
     spd2.cekStatus();
+    System.out.println("---------------------------------");
 
     spd3.setMerk("Klinee");
     spd3.tambahKecepatan(5);
     spd3.gantiGear(3);
     spd3.setTipeSuspensi("Gas suspension");
     spd3.cekStatus();
+    System.out.println("---------------------------------");
   }
 }
