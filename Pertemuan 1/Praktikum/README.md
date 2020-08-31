@@ -2,6 +2,10 @@
 
 ## Program Objek Buku
 
+> Gambar Objek Buku
+
+<img src="images/buku.jpg" width="500" />
+
 > Program Code
 
 **_class_ Buku**
@@ -41,6 +45,10 @@
 
 ## Program Objek Tas
 
+> Gambar Objek Tas
+
+<img src="images/tas.jpg" width="500" />
+
 > Program Code
 
 **_class_ Tas**
@@ -53,7 +61,7 @@
 
 > Output Program Code
 
-![](images/output-objek-tas.png)
+![](images/output-objek-tas.JPG)
 
 > Penjelasan
 
@@ -64,6 +72,10 @@
 | Tas   | - harga <br> - jenis <br> - warna | - setHarga <br> - setWarna <br> - setJenis <br> - info |
 
 ## Program Objek HP
+
+> Gambar Objek HP
+
+<img src="images/hp.jpg" width="500" />
 
 > Output Program Code
 
