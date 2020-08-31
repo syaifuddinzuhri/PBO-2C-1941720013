@@ -31,9 +31,9 @@
 
 - Program objek tas ini hanya menggunakan 1 _class_ tanpa _inheritance class_ atau kelas warisan.
 
-| Class | Attribute                         | Method                                    |
-| ----- | --------------------------------- | ----------------------------------------- |
-| Tas   | - harga <br> - jenis <br> - warna | - setHarga <br> - setWarna <br> -setJenis |
+| Class | Attribute                         | Method                                     |
+| ----- | --------------------------------- | ------------------------------------------ |
+| Tas   | - harga <br> - jenis <br> - warna | - setHarga <br> - setWarna <br> - setJenis |
 
 ## Program Objek HP
 
@@ -45,6 +45,6 @@
 
 - Program objek hp ini hanya menggunakan 1 _class_ tanpa _inheritance class_ atau kelas warisan
 
-| Class | Attribute                            | Method                                     |
-| ----- | ------------------------------------ | ------------------------------------------ |
-| HP    | - harga <br> - jumlahHP <br> - merek | - setHarga <br> - setJumlah <br> -setMerek |
+| Class | Attribute                            | Method                                      |
+| ----- | ------------------------------------ | ------------------------------------------- |
+| HP    | - harga <br> - jumlahHP <br> - merek | - setHarga <br> - setJumlah <br> - setMerek |
