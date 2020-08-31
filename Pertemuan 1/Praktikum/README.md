@@ -2,6 +2,24 @@
 
 ## Program Objek Buku
 
+> Program Code
+
+**_class_ Buku**
+
+![](images/code-buku.JPG)
+
+**_class_ BukuNovel**
+
+![](images/code-buku-novel.JPG)
+
+**_class_ BukuSekolah**
+
+![](images/code-buku-sekolah.JPG)
+
+**_class_ PraktikumDemo**
+
+![](images/code-demo-1.JPG)
+
 > Output Program Code
 
 ![](images/output-objek-buku.JPG)
@@ -23,6 +41,16 @@
 
 ## Program Objek Tas
 
+> Program Code
+
+**_class_ Tas**
+
+![](images/code-tas.JPG)
+
+**_class_ Demo**
+
+![](images/code-demo-2.JPG)
+
 > Output Program Code
 
 ![](images/output-objek-tas.JPG)
@@ -40,6 +68,15 @@
 > Output Program Code
 
 ![](images/output-objek-hp.JPG)
+
+> Program Code
+
+**_class_ HP**
+
+![](images/code-hp.JPG)
+
+**_class_ Demo**
+![](images/code-demo-3.JPG)
 
 > Penjelasan
 
