@@ -6,19 +6,19 @@
 
 **_class_ Buku**
 
-![](images/code-buku.png)
+<img src="images/code-buku.png" width="500" />
 
 **_class_ BukuNovel**
 
-![](images/code-buku-novel.png)
+<img src="images/code-buku-novel.png" width="500" />
 
 **_class_ BukuSekolah**
 
-![](images/code-buku-sekolah.png)
+<img src="images/code-buku-sekolah.png" width="500" />
 
 **_class_ PraktikumDemo**
 
-![](images/code-demo-1.png)
+<img src="images/code-demo-1.png" width="500" />
 
 > Output Program Code
 
@@ -45,11 +45,11 @@
 
 **_class_ Tas**
 
-![](images/code-tas.JPG)
+<img src="images/code-tas.png" width="500" />
 
 **_class_ Demo**
 
-![](images/code-demo-2.png)
+<img src="images/code-demo-2.png" width="500" />
 
 > Output Program Code
 
@@ -73,11 +73,11 @@
 
 **_class_ HP**
 
-![](images/code-hp.png)
+<img src="images/code-hp.png" width="500" />
 
 **_class_ Demo**
 
-![](images/code-demo-3.png)
+<img src="images/code-demo-3.png" width="500" />
 
 > Penjelasan
 
