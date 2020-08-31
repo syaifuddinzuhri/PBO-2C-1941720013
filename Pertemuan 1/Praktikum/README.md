@@ -15,6 +15,12 @@
 - _class_ Buku adalah _class_ utama atau _class_ yang mewarisi ke _child class_ nya yaitu BukuNovel dan BukuSekolah.
 - _class_ BukuNovel dan BukuSekolah adalah _class_ yang diwarisi oleh _class_ Buku.
 
+| Class       | Attribute                                                                     | Method                                                                                                                |
+| ----------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Buku        | - penerbit <br> - judulBuku <br> - jenisBuku <br> - tahunTerbit <br> - jumlah | - setPenerbit <br> - setJumlah <br> - setJenis <br> - setTahunTerbit <br> - setJudul <br> - setTambahBuku <br> - info |
+| BukuNovel   | - kategori <br> - halaman                                                     | - setKategori <br> - setHalaman <br> - info                                                                           |
+| BukuSekolah | - kelasBuku <br> - jenjang                                                    | - setBukuKelas <br> -setJenjang <br> - info                                                                           |
+
 ## Program Objek Tas
 
 > Output Program Code
@@ -25,6 +31,10 @@
 
 - Program objek tas ini hanya menggunakan 1 _class_ tanpa _inheritance class_ atau kelas warisan.
 
+| Class | Attribute                         | Method                                    |
+| ----- | --------------------------------- | ----------------------------------------- |
+| Tas   | - harga <br> - jenis <br> - warna | - setHarga <br> - setWarna <br> -setJenis |
+
 ## Program Objek HP
 
 > Output Program Code
@@ -34,3 +44,7 @@
 > Penjelasan
 
 - Program objek hp ini hanya menggunakan 1 _class_ tanpa _inheritance class_ atau kelas warisan
+
+| Class | Attribute                            | Method                                     |
+| ----- | ------------------------------------ | ------------------------------------------ |
+| HP    | - harga <br> - jumlahHP <br> - merek | - setHarga <br> - setJumlah <br> -setMerek |
