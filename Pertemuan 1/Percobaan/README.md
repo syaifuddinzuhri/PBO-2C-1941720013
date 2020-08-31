@@ -4,10 +4,10 @@
 
 > Output Program Code
 
-![](images/percobaan1.jpg);
+![](images/percobaan1.JPG)
 
 ## Percobaan 2
 
 > Output Program Code
 
-![](images/percobaan2.jpg);
+![](images/percobaan2.JPG)
