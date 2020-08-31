@@ -1,4 +1,4 @@
-package praktikum.code;
+package Praktikum.source_code;
 
 public class BukuSekolah extends Buku {
   private String jenjang;

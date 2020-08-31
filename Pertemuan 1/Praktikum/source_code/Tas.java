@@ -1,4 +1,4 @@
-package praktikum.code;
+package Praktikum.source_code;
 
 public class Tas {
   private int harga;

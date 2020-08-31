@@ -1,4 +1,4 @@
-package praktikum.code;
+package Praktikum.source_code;
 
 public class Buku {
   private String penerbit, judulBuku, jenisBuku;

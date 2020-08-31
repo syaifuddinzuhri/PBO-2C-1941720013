@@ -1,4 +1,4 @@
-package percobaan.source_code;
+package Percobaan.source_code;
 
 public class Sepeda {
   private String merek;
