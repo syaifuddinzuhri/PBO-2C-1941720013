@@ -1,7 +1,7 @@
 package Praktikum.source_code;
 
 public class Tas {
-  private int harga;
+  private int harga, diskon;
   private String jenis, warna;
 
   public void setHarga(int newValue) {
@@ -17,7 +17,14 @@ public class Tas {
   }
 
   public int tambahDiskon(int newValue) {
-    harga = (harga * newValue) / 100;
+    diskon = (harga * newValue) / 100;
+    harga -= diskon;
+    return harga;
+  }
+
+  public int kurangiDiskon(int diskonAwal, int diskonBaru) {
+    diskon = (harga * (diskonAwal - diskonBaru)) / 100;
+    harga -= diskon;
     return harga;
   }
 

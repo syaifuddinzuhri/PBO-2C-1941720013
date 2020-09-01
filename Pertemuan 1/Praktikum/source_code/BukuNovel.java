@@ -12,6 +12,21 @@ public class BukuNovel extends Buku {
     halaman = newValue;
   }
 
+  public int tambahHalaman(int newValue){
+    halaman += newValue;
+    return halaman;
+  }
+
+  public int kurangiHalaman(int newValue){
+    halaman -= newValue;
+    return halaman;
+  }
+
+  public String hapusKategori(){
+    kategori = "";
+    return kategori;
+  }
+
   public void info() {
     super.info();
     System.out.println("Kategori\t\t: " + kategori);

@@ -21,6 +21,11 @@ public class Hp {
     return jumlahHp;
   }
 
+  public int kurangiJumlah(int j) {
+    jumlahHp -= j;
+    return jumlahHp;
+  }
+
   public void info() {
     System.out.println("\n---------------------------------------");
     System.out.println("Merek HP\t\t: " + merek);
