@@ -67,9 +67,9 @@
 
 - Program objek tas ini hanya menggunakan 1 _class_ tanpa _inheritance class_ atau kelas warisan.
 
-| Class | Attribute                         | Method                                                                                          |
-| ----- | --------------------------------- | ----------------------------------------------------------------------------------------------- |
-| Tas   | - harga <br> - jenis <br> - warna | - setHarga <br> - setWarna <br> - setJenis <br> - tambahJumlah <br> - kurangiJumlah <br> - info |
+| Class | Attribute                         | Method                                                                          |
+| ----- | --------------------------------- | ------------------------------------------------------------------------------- |
+| Tas   | - harga <br> - jenis <br> - warna | - setHarga <br> - setWarna <br> - setJenis <br> - tambahDiskon <br> <br> - info |
 
 ## Program Objek HP
 
@@ -95,6 +95,6 @@
 
 - Program objek hp ini hanya menggunakan 1 _class_ tanpa _inheritance class_ atau kelas warisan
 
-| Class | Attribute                                          | Method                                                                                           |
-| ----- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| HP    | - harga <br> - diskon <br> - jumlahHP <br> - merek | - setHarga <br> - setJumlah <br> - setMerek <br> - tambahDiskon <br> - kurangiDiskon <br> - info |
+| Class | Attribute                                          | Method                                                                                                           |
+| ----- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| HP    | - harga <br> - diskon <br> - jumlahHP <br> - merek | - setHarga <br> - setJumlah <br> - setMerek <br> - tambahJumlah <br> - kurangiJumlah - kurangiDiskon <br> - info |
