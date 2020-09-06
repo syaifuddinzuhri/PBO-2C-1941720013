@@ -1,4 +1,4 @@
-package Percobaan.source_code;
+package Percobaan.src;
 
 public class SepedaDemo {
   public static void main(String[] args) {
