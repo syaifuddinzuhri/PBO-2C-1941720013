@@ -1,4 +1,4 @@
-package Praktikum.source_code;
+package Praktikum.src;
 
 public class PraktikumDemo {
   public static void main(String[] args) {

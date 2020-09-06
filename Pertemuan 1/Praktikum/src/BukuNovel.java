@@ -1,4 +1,4 @@
-package Praktikum.source_code;
+package Praktikum.src;
 
 public class BukuNovel extends Buku {
   private String kategori;
@@ -12,17 +12,17 @@ public class BukuNovel extends Buku {
     halaman = newValue;
   }
 
-  public int tambahHalaman(int newValue){
+  public int tambahHalaman(int newValue) {
     halaman += newValue;
     return halaman;
   }
 
-  public int kurangiHalaman(int newValue){
+  public int kurangiHalaman(int newValue) {
     halaman -= newValue;
     return halaman;
   }
 
-  public String hapusKategori(){
+  public String hapusKategori() {
     kategori = "";
     return kategori;
   }

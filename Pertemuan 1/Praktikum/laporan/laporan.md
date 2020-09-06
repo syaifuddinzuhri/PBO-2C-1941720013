@@ -4,29 +4,29 @@
 
 > Gambar Objek Buku
 
-<img src="images/buku.jpg" width="500" />
+<img src="../images/buku.jpg" width="500" />
 
 > Program Code
 
 **_class_ Buku**
 
-<img src="images/code-buku.png" width="500" />
+<img src="../images/code-buku.png" width="500" />
 
 **_class_ BukuNovel**
 
-<img src="images/code-buku-novel.png" width="500" />
+<img src="../images/code-buku-novel.png" width="500" />
 
 **_class_ BukuSekolah**
 
-<img src="images/code-buku-sekolah.png" width="500" />
+<img src="../images/code-buku-sekolah.png" width="500" />
 
 **_class_ PraktikumDemo**
 
-<img src="images/code-demo-1.png" width="500" />
+<img src="../images/code-demo-1.png" width="500" />
 
 > Output Program Code
 
-![](images/output-objek-buku.JPG)
+![](../images/output-objek-buku.JPG)
 
 > Penjelasan
 
@@ -47,21 +47,21 @@
 
 > Gambar Objek Tas
 
-<img src="images/tas.jpg" width="500" />
+<img src="../images/tas.jpg" width="500" />
 
 > Program Code
 
 **_class_ Tas**
 
-<img src="images/code-tas.png" width="500" />
+<img src="../images/code-tas.png" width="500" />
 
 **_class_ Demo**
 
-<img src="images/code-demo-2.png" width="500" />
+<img src="../images/code-demo-2.png" width="500" />
 
 > Output Program Code
 
-![](images/output-objek-tas.JPG)
+![](../images/output-objek-tas.JPG)
 
 > Penjelasan
 
@@ -75,21 +75,21 @@
 
 > Gambar Objek HP
 
-<img src="images/hp.jpg" width="500" />
+<img src="../images/hp.jpg" width="500" />
 
 > Output Program Code
 
-![](images/output-objek-hp.JPG)
+![](../images/output-objek-hp.JPG)
 
 > Program Code
 
 **_class_ HP**
 
-<img src="images/code-hp.png" width="500" />
+<img src="../images/code-hp.png" width="500" />
 
 **_class_ Demo**
 
-<img src="images/code-demo-3.png" width="500" />
+<img src="../images/code-demo-3.png" width="500" />
 
 > Penjelasan
 
