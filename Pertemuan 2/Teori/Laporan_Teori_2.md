@@ -4,7 +4,7 @@
 
 > Class Diagram
 
-![](img/latihan1.JPG)
+![](img/latihan1.jpg)
 
 Dalam implementasi terdapat 4 class diantaranya Mahasiswa, MataKuliah, Dosen, dan Nilai.
 
@@ -14,7 +14,7 @@ Dalam implementasi terdapat 4 class diantaranya Mahasiswa, MataKuliah, Dosen, da
 
 Manambahkan atribut kepada masing-masing class yang sudah dibuat sebelumnya
 
-![](img/latihan2.JPG)
+![](img/latihan2.jpg)
 
 ## Source Code Program Penilaian Mahasiswa
 
@@ -182,7 +182,7 @@ public class Dosen {
 
 > Class Diagram
 
-![](img/latihan3.JPG)
+![](img/latihan3.jpg)
 
 > Source Code
 
