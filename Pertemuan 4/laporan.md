@@ -2,7 +2,7 @@
 
 ## Class Diagram Studi Kasus
 
-![](images/class-diagram.JPG)
+![](images/class-diagram.jpg)
 
 ### Terdapat 4 class pada studi kasus ini diantaranya :
 
