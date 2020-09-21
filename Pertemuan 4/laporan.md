@@ -258,6 +258,43 @@ public class Penyewa {
 
 ```
 
+### Output Program
+
+> Jika program tidak menggunakan atribut diskon
+
+> _class_ Main
+
+```
+package TugasPertemuan4.PenyewaanBuku;
+
+public class Main {
+    public static void main(String[] args) {
+        Siswa siswa = new Siswa();
+        siswa.setIdSiswa(123);
+        siswa.setNama("Alexander");
+        siswa.setKelas("10 IPA");
+
+        Buku buku = new Buku();
+        buku.setKode("A123");
+        buku.setJudul("5 CM");
+        buku.setJumlah(2);
+        buku.setHarga(10000);
+
+        Petugas petugas = new Petugas(111, "John Alexa");
+
+        Penyewa penyewa = new Penyewa(siswa, buku, petugas);
+        penyewa.setHari(5);
+        penyewa.info();
+        System.out.println("Diskon\t\t\t: " + penyewa.getDiskon() + "%");
+        System.out.println("Total Biaya Penyewaan\t: Rp." + penyewa.hitungTotalBiaya());
+    }
+}
+```
+
+![](images/output-tugas1.JPG)
+
+> Jika program menggunakan atribut diskon
+
 > _class_ Main
 
 ```
@@ -288,12 +325,37 @@ public class Main {
 }
 ```
 
-### Output Program
-
-> Jika program tidak menggunakan atribut diskon
-
-![](images/output-tugas1.JPG)
-
-> Jika program menggunakan atribut diskon
-
 ![](images/output-tugas2.JPG)
+
+> Jika jumlah buku sewa kosong
+
+> _class_ Main
+
+```
+package TugasPertemuan4.PenyewaanBuku;
+
+public class Main {
+    public static void main(String[] args) {
+        Siswa siswa = new Siswa();
+        siswa.setIdSiswa(123);
+        siswa.setNama("Alexander");
+        siswa.setKelas("10 IPA");
+
+        Buku buku = new Buku();
+        buku.setKode("A123");
+        buku.setJudul("5 CM");
+        buku.setJumlah(0);
+        buku.setHarga(10000);
+
+        Petugas petugas = new Petugas(111, "John Alexa");
+
+        Penyewa penyewa = new Penyewa(siswa, buku, petugas);
+        penyewa.setHari(5);
+        penyewa.info();
+        System.out.println("Diskon\t\t\t: " + penyewa.getDiskon() + "%");
+        System.out.println("Total Biaya Penyewaan\t: Rp." + penyewa.hitungTotalBiaya());
+    }
+}
+```
+
+![](images/output-tugas3.JPG)
