@@ -86,10 +86,6 @@ public class Pria extends Manusia{
     public Pria() {
     }
 
-    public Pria(Wanita istri) {
-        this.istri = istri;
-    }
-
     public Pria(Wanita istri, int umur, String nama, boolean dewasa) {
         super(umur, nama, dewasa);
         this.istri = istri;
@@ -142,11 +138,6 @@ public class Wanita extends Manusia{
     private Manusia anak;
 
     public Wanita() {
-    }
-
-    public Wanita(Pria suami, Manusia anak) {
-        this.suami = suami;
-        this.anak = anak;
     }
 
     public Wanita(Pria suami, Manusia anak, int umur, String nama, boolean dewasa) {
