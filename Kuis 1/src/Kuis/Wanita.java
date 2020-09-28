@@ -9,16 +9,11 @@ package Kuis;
  *
  * @author Syaifuddin
  */
-public class Wanita extends Manusia{
+public class Wanita extends Manusia {
     private Pria suami;
     private Manusia anak;
 
     public Wanita() {
-    }
-
-    public Wanita(Pria suami, Manusia anak) {
-        this.suami = suami;
-        this.anak = anak;
     }
 
     public Wanita(Pria suami, Manusia anak, int umur, String nama, boolean dewasa) {
@@ -42,11 +37,11 @@ public class Wanita extends Manusia{
     public void setAnak(Manusia anak) {
         this.anak = anak;
     }
-    
-    public void cekIstri(){
-        if(super.getUmur() >= 20){
+
+    public void cekIstri() {
+        if (super.getUmur() >= 20) {
             super.setDewasa(true);
-            if(suami.getUmur() >= 22){
+            if (suami.getUmur() >= 22) {
                 suami.setDewasa(true);
             } else {
                 suami.setDewasa(false);
@@ -59,10 +54,10 @@ public class Wanita extends Manusia{
             System.out.println("\n!!! Wanita ini masih kuliah !!!");
         }
     }
-    
-    public void info(){
+
+    public void info() {
         System.out.println("\n----------------- Data Wanita -----------------");
         super.info();
     }
-    
+
 }

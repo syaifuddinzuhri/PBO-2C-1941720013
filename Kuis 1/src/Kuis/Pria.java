@@ -10,21 +10,16 @@ package Kuis;
  *
  * @author Syaifuddin
  */
-public class Pria extends Manusia{
+public class Pria extends Manusia {
     private Wanita istri;
 
     public Pria() {
-    }
-
-    public Pria(Wanita istri) {
-        this.istri = istri;
     }
 
     public Pria(Wanita istri, int umur, String nama, boolean dewasa) {
         super(umur, nama, dewasa);
         this.istri = istri;
     }
-
 
     public Wanita getIstri() {
         return istri;
@@ -33,10 +28,10 @@ public class Pria extends Manusia{
     public void setIstri(Wanita istri) {
         this.istri = istri;
     }
-    
-    public void cekPria(){
-        if(super.getUmur() >= 22){
-            if(istri != null){
+
+    public void cekPria() {
+        if (super.getUmur() >= 22) {
+            if (istri != null) {
                 super.setDewasa(true);
                 istri.setDewasa(true);
                 istri.info();
@@ -49,8 +44,8 @@ public class Pria extends Manusia{
             System.out.println("\n!!! Pria ini masih kuliah !!!");
         }
     }
-    
-    public void info(){
+
+    public void info() {
         System.out.println("\n------------------ Data Pria ------------------");
         super.info();
     }
