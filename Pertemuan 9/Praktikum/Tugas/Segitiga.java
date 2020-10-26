@@ -6,23 +6,25 @@ package Tugas;
  */
 public class Segitiga {
     private int sudut;
-    
-    public int totalSudut(int sudutA){
-        return this.sudut = 180 - sudutA;
+
+    public int totalSudut(int sudutA) {
+        this.sudut = 180 - sudutA;
+        return this.sudut;
     }
-    
-    public int totalSudut(int sudutA, int sudutB){
-        return this.sudut = 180 - (sudutA + sudutB);
+
+    public int totalSudut(int sudutA, int sudutB) {
+        this.sudut = 180 - (sudutA + sudutB);
+        return this.sudut;
     }
-    
-    public int keliling(int sisiA, int sisiB, int sisiC){
+
+    public int keliling(int sisiA, int sisiB, int sisiC) {
         return sisiA * sisiB * sisiC;
     }
-    
-    public double keliling(int sisiA, int sisiB){
+
+    public double keliling(int sisiA, int sisiB) {
         return Math.sqrt(Math.pow(sisiA, 2)) + Math.sqrt(Math.pow(sisiB, 2));
     }
-    
+
     public static void main(String[] args) {
         Segitiga segitiga = new Segitiga();
         System.out.println("Total Sudut dengan 1 parameter : " + segitiga.totalSudut(15));

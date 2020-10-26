@@ -63,11 +63,13 @@ public class Segitiga {
     private int sudut;
 
     public int totalSudut(int sudutA){
-        return this.sudut = 180 - sudutA;
+        this.sudut = 180 - sudutA;
+        return this.sudut;
     }
 
     public int totalSudut(int sudutA, int sudutB){
-        return this.sudut = 180 - (sudutA + sudutB);
+        this.sudut = 180 - (sudutA + sudutB);
+        return this.sudut;
     }
 
     public int keliling(int sisiA, int sisiB, int sisiC){
