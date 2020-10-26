@@ -159,6 +159,11 @@ public class Mahasiswa extends Manusia{
 > Class DemoManusia
 
 ```
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package Tugas;
 
 /**
@@ -167,13 +172,27 @@ package Tugas;
  */
 public class DemoManusia {
     public static void main(String[] args) {
-        Manusia manusia = new Manusia();
-        Dosen dosen = new Dosen();
-        Mahasiswa mahasiswa = new Mahasiswa();
+        // Method dynamic dispatch
+        Manusia manusia;
 
-        infoManusia(manusia);
-        infoDosen(dosen);
-        infoMahasiswa(mahasiswa);
+        manusia = new Manusia();
+        manusia.makan();
+
+        manusia = new Dosen();
+        manusia.makan();
+
+        manusia = new Mahasiswa();
+        manusia.makan();
+
+        System.out.println("======================");
+
+        Manusia m = new Manusia();
+        Dosen dsn = new Dosen();
+        Mahasiswa mhs = new Mahasiswa();
+
+        infoManusia(m);
+        infoDosen(dsn);
+        infoMahasiswa(mhs);
     }
 
     public static void infoManusia(Manusia manusia){
