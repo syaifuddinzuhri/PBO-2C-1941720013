@@ -91,7 +91,9 @@ Dari perubahan script diatas, apa yang terjadi ? serta jelaskan alasannya (captu
 ![](img/2.png)
 
 2. Perhatikan script code dibawah ini :
+
    ![](img/21.png)
+
    Jelaskan menurut anda, mengapa hasil dari script code tersebut error ?
 
    **Jawab :** Baris kode tersebut error dikarenakan kode tersebut instansiasi dari class interface, sedangkan class interface sendiri itu tidak bisa digunakan pada proses instansiasi.
