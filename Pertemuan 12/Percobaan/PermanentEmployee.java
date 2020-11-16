@@ -1,4 +1,4 @@
-package Minggu12.Percobaan;
+package Percobaan;
 
 public class PermanentEmployee extends Employee implements Payable {
   private int salary;

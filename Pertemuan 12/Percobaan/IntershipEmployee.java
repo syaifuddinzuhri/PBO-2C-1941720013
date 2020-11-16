@@ -1,4 +1,4 @@
-package Minggu12.Percobaan;
+package Percobaan;
 
 public class IntershipEmployee extends Employee {
   private int length;

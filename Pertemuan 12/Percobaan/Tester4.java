@@ -1,4 +1,4 @@
-package Minggu12.Percobaan;
+package Percobaan;
 
 public class Tester4 {
   public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Minggu12.Percobaan;
+package Percobaan;
 
 public interface Payable {
   public int getPaymentAmount();

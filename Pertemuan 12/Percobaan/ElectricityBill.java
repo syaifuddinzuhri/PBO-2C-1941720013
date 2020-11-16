@@ -1,4 +1,4 @@
-package Minggu12.Percobaan;
+package Percobaan;
 
 public class ElectricityBill implements Payable {
   private int kwh;
