@@ -48,7 +48,7 @@
 
 2. Buat class baru dengan nama Tester2.
 
-   **Jawab:**
+   **Jawab:** Pada saat obyek yang sudah dibuat tersebut memanggil overridden method pada parent class, kompiler Java akan melakukan invocation (pemanggilan) terhadap overriding method pada subclass, dimana yang seharusnya dipanggil adalah overridden.
 
 ```
 package Minggu12.Percobaan;
@@ -83,7 +83,7 @@ public class Tester2 {
 
 3. Jadi apakah yang dimaksud dari virtual method invocation? Mengapa disebut virtual?
 
-   **Jawab:** Pada saat obyek yang sudah dibuat tersebut memanggil overridden method pada parent class, kompiler Java akan melakukan invocation (pemanggilan) terhadap overriding method pada subclass, dimana yang seharusnya dipanggil adalah overridden.
+   **Jawab:** Virtual method invocation terjadi ketika ada pemanggilan overriding method dari suatu objek polimorfisme. Disebut virtual karena antara method yang dikenali oleh compiler dan method yang dijalankan oleh JVM berbeda
 
 ## PERCOBAAN 3
 
