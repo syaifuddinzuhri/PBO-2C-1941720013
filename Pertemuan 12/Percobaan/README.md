@@ -67,9 +67,9 @@ public class Tester2 {
 
 3. Jalankan class Tester2, dan akan didapatkan hasil sebagai berikut:
 
-   **Jawab:** Polimorfisme dalam OOP adalah sebuah prinsip di mana class dapat memiliki banyak “bentuk” method yang berbeda-beda meskipun namanya sama. “Bentuk” di sini dapat kita artikan: isinya berbeda, parameternya berbeda, dan tipe datanya berbeda.
+   **Jawab:**
 
-![](img/t2.png)
+   ![](img/t2.png)
 
 > Pertanyaan
 
