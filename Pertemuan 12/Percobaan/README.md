@@ -40,7 +40,7 @@
 
 6. Ambil kesimpulan tentang konsep/bentuk dasar polimorfisme!
 
-   **Jawab:**
+   **Jawab:** Pada saat obyek yang sudah dibuat tersebut memanggil overridden method pada parent class, kompiler Java akan melakukan invocation (pemanggilan) terhadap overriding method pada subclass, dimana yang seharusnya dipanggil adalah overridden.
 
 ## PERCOBAAN 2
 
@@ -48,7 +48,7 @@
 
 2. Buat class baru dengan nama Tester2.
 
-   **Jawab:** Pada saat obyek yang sudah dibuat tersebut memanggil overridden method pada parent class, kompiler Java akan melakukan invocation (pemanggilan) terhadap overriding method pada subclass, dimana yang seharusnya dipanggil adalah overridden.
+   **Jawab:**
 
 ```
 package Minggu12.Percobaan;
