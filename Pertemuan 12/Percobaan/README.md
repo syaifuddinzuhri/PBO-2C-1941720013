@@ -14,7 +14,7 @@
 
 3. Perhatikan class Tester1, baris ke-10 dan 11. Mengapa e, bisa diisi dengan objek pEmp (merupakan objek dari class PermanentEmployee) dan objek iEmp (merupakan objek dari class InternshipEmploye) ?
 
-   **Jawab:**Karena objek pEmp dan iEmp adalah turunan atau subclass dari class Employee (e)
+   **Jawab:** Karena objek pEmp dan iEmp adalah turunan atau subclass dari class Employee (e)
 
 4. Perhatikan class Tester1, baris ke-12 dan 13. Mengapa p, bisa diisi dengan objek pEmp (merupakan objek dari class PermanentEmployee) dan objek eBill (merupakan objek dari class ElectricityBill) ?
 
