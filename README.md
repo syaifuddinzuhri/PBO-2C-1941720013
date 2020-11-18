@@ -71,5 +71,5 @@ Kumpulan tugas dan laporan dari jobsheet per pertemuan di mata kuliah Pemrograma
 
   - [Tugas](https://github.com/syaifuddinzuhri/Praktikum-PBO/tree/master/Pertemuan%2012/Tugas)
 
-  - [Tugas](https://github.com/syaifuddinzuhri/Praktikum-PBO/tree/master/Pertemuan%2012/Teori)
+  - [Teori](https://github.com/syaifuddinzuhri/Praktikum-PBO/tree/master/Pertemuan%2012/Teori)
     `
