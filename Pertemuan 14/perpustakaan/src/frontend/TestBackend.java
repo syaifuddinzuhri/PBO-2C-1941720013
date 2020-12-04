@@ -102,18 +102,17 @@ public class TestBackend {
 //                System.out.println("Kategori: " + b.getKategori().getNama() + ", Judul: " + b.getJudul());
 //            }
 
-//               Anggota ang = new Anggota().getById(1);
-//               Buku buk = new Buku().getById(5);
+//            Anggota ang = new Anggota().getById(1);
+//            Buku buk = new Buku().getById(5);
+//            Peminjaman pen = new Peminjaman(ang, buk, "2000-11-03", "2000-11-10");
+//
+//            pen.setTanggalKembali("2021-10-10");
+//            pen.save();
 //               
-//               Peminjaman pen = new Peminjaman(ang, buk, "2000-11-03", "2000-11-10");
+//            for(Peminjaman b : new Peminjaman().getAll())
+//            {
+//                System.out.println("IDAnggota: " + b.getAnggota().getIdAnggota() + ", ID Buku: " + b.getBuku().getIdbuku());
+//            }
 //               
-//               pen.setTanggalKembali("2021-10-10");
-//               pen.save();
-               
-            for(Peminjaman b : new Peminjaman().getAll())
-            {
-                System.out.println("IDAnggota: " + b.getAnggota().getIdAnggota() + ", ID Buku: " + b.getBuku().getIdbuku());
-            }
-               
     }
 }
